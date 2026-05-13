@@ -208,7 +208,7 @@ This element directly addresses the "a" factor — anxiety. Done well, it raises
 
 ### Common failures
 - USPs that contradict each other ("Free shipping over €50" + "Free shipping always")
-- Auto-true USPs ("Free shipping above €X" when entire homepage shows products below that threshold — see Mytheresa case)
+- Auto-true USPs ("Free shipping above €X" when entire homepage shows products below that threshold)
 - USPs that don't fit the brand promise (a luxury brand emphasising "lowest price")
 - Trust strip below the fold where 50%+ of users never see it
 
