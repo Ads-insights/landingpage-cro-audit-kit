@@ -101,18 +101,30 @@ Each skill is purpose-built for one specific page-type and business-model combin
 
 ### 1. Install the skills
 
-Go to **[claude.ai](https://claude.ai)** → **Customize** → **Skills**
+**Step 1 — Download the kit**
 
-Each skill in this repository lives in its own folder, containing a `SKILL.md` and a `references/` folder with supporting files. To install a skill in Claude:
+On this page, click the green **Code** button (top right of the file list) → **Download ZIP**. Extract the ZIP on your computer. You'll see 22 folders (one per skill), plus README and LICENSE.
 
-1. **Clone or download this repository** (or download a specific skill folder)
-2. **Zip the skill folder** (e.g. `landingpage-b2c-ecom-productpage/` → `landingpage-b2c-ecom-productpage.zip`)
-3. In Claude: click the **+** button → **Upload a skill** → select the `.zip` file
-4. Save
+Each skill folder contains everything that skill needs — a `SKILL.md` file and a `references/` subfolder with supporting frameworks and examples. Don't move or rename anything inside the folders.
 
-**Install all 22 for full coverage**, or pick only the skills relevant to your work — each skill is fully self-contained.
+**Step 2 — Zip the skill folder you want to install**
 
-**Tip:** if you only need a few skills, download just the folders you need. The references inside each folder are required for that skill to work correctly.
+To install a skill in Claude, you need to upload it as a `.zip` file containing the skill folder. Simply zip the entire folder:
+
+- **Windows:** Right-click the skill folder (e.g. `landingpage-b2c-ecom-homepage`) → **Send to** → **Compressed (zipped) folder**
+- **Mac:** Right-click the skill folder → **Compress "[folder-name]"**
+
+The resulting `.zip` contains `SKILL.md` and the `references/` folder — exactly what Claude needs. No manual editing required.
+
+**Step 3 — Upload to Claude**
+
+Go to **[claude.ai](https://claude.ai)** → **Customize** → **Skills** → click the **+** button → **Create skill** → **Upload a skill** → select your `.zip` file.
+
+The skill appears in your Personal skills list. Claude installs the SKILL.md and the references together automatically — you don't need to upload references separately.
+
+**Step 4 — Repeat for each skill you want to install**
+
+All 22 skills are fully independent. Install just the ones you need — no orchestrator, no dependencies. Most users start with the 2-3 page-types they audit most often, then add more over time.
 
 ### 2. Pick the right skill for your page
 
@@ -194,43 +206,43 @@ Findings cite from established research:
 
 | Skill | Audits |
 | --- | --- |
-| [`landingpage-b2c-ecom-homepage`](./landingpage-b2c-ecom-homepage/SKILL.md) | B2C webshop homepages |
-| [`landingpage-b2c-ecom-categorypage`](./landingpage-b2c-ecom-categorypage/SKILL.md) | B2C category / collection / PLP pages |
-| [`landingpage-b2c-ecom-productpage`](./landingpage-b2c-ecom-productpage/SKILL.md) | B2C product detail pages (PDP) |
-| [`landingpage-b2c-ecom-viewcart`](./landingpage-b2c-ecom-viewcart/SKILL.md) | B2C shopping cart pages |
-| [`landingpage-b2c-ecom-checkout`](./landingpage-b2c-ecom-checkout/SKILL.md) | B2C checkout flows |
-| [`landingpage-b2c-ecom-aboutus`](./landingpage-b2c-ecom-aboutus/SKILL.md) | B2C ecom about-us pages |
+| [`landingpage-b2c-ecom-homepage`](./landingpage-b2c-ecom-homepage.md) | B2C webshop homepages |
+| [`landingpage-b2c-ecom-categorypage`](./landingpage-b2c-ecom-categorypage.md) | B2C category / collection / PLP pages |
+| [`landingpage-b2c-ecom-productpage`](./landingpage-b2c-ecom-productpage.md) | B2C product detail pages (PDP) |
+| [`landingpage-b2c-ecom-viewcart`](./landingpage-b2c-ecom-viewcart.md) | B2C shopping cart pages |
+| [`landingpage-b2c-ecom-checkout`](./landingpage-b2c-ecom-checkout.md) | B2C checkout flows |
+| [`landingpage-b2c-ecom-aboutus`](./landingpage-b2c-ecom-aboutus.md) | B2C ecom about-us pages |
 
 ### 🏢 B2B Ecommerce (6 skills)
 
 | Skill | Audits |
 | --- | --- |
-| [`landingpage-b2b-ecom-homepage`](./landingpage-b2b-ecom-homepage/SKILL.md) | B2B webshop homepages |
-| [`landingpage-b2b-ecom-categorypage`](./landingpage-b2b-ecom-categorypage/SKILL.md) | B2B category / wholesale listing pages |
-| [`landingpage-b2b-ecom-productpage`](./landingpage-b2b-ecom-productpage/SKILL.md) | B2B product detail pages |
-| [`landingpage-b2b-ecom-viewcart`](./landingpage-b2b-ecom-viewcart/SKILL.md) | B2B cart pages |
-| [`landingpage-b2b-ecom-checkout`](./landingpage-b2b-ecom-checkout/SKILL.md) | B2B checkout flows (PO / net-payment / invoice) |
-| [`landingpage-b2b-ecom-aboutus`](./landingpage-b2b-ecom-aboutus/SKILL.md) | B2B ecom about-us pages |
+| [`landingpage-b2b-ecom-homepage`](./landingpage-b2b-ecom-homepage.md) | B2B webshop homepages |
+| [`landingpage-b2b-ecom-categorypage`](./landingpage-b2b-ecom-categorypage.md) | B2B category / wholesale listing pages |
+| [`landingpage-b2b-ecom-productpage`](./landingpage-b2b-ecom-productpage.md) | B2B product detail pages |
+| [`landingpage-b2b-ecom-viewcart`](./landingpage-b2b-ecom-viewcart.md) | B2B cart pages |
+| [`landingpage-b2b-ecom-checkout`](./landingpage-b2b-ecom-checkout.md) | B2B checkout flows (PO / net-payment / invoice) |
+| [`landingpage-b2b-ecom-aboutus`](./landingpage-b2b-ecom-aboutus.md) | B2B ecom about-us pages |
 
 ### 💬 B2C Leadgen (5 skills)
 
 | Skill | Audits |
 | --- | --- |
-| [`landingpage-b2c-leadgen-homepage`](./landingpage-b2c-leadgen-homepage/SKILL.md) | B2C service-business homepages |
-| [`landingpage-b2c-leadgen-servicepage`](./landingpage-b2c-leadgen-servicepage/SKILL.md) | B2C service / treatment pages |
-| [`landingpage-b2c-leadgen-dedicatedlp`](./landingpage-b2c-leadgen-dedicatedlp/SKILL.md) | B2C dedicated campaign LPs (paid traffic) |
-| [`landingpage-b2c-leadgen-contactpage`](./landingpage-b2c-leadgen-contactpage/SKILL.md) | B2C contact pages |
-| [`landingpage-b2c-leadgen-aboutus`](./landingpage-b2c-leadgen-aboutus/SKILL.md) | B2C service-business about-us pages |
+| [`landingpage-b2c-leadgen-homepage`](./landingpage-b2c-leadgen-homepage.md) | B2C service-business homepages |
+| [`landingpage-b2c-leadgen-servicepage`](./landingpage-b2c-leadgen-servicepage.md) | B2C service / treatment pages |
+| [`landingpage-b2c-leadgen-dedicatedlp`](./landingpage-b2c-leadgen-dedicatedlp.md) | B2C dedicated campaign LPs (paid traffic) |
+| [`landingpage-b2c-leadgen-contactpage`](./landingpage-b2c-leadgen-contactpage.md) | B2C contact pages |
+| [`landingpage-b2c-leadgen-aboutus`](./landingpage-b2c-leadgen-aboutus.md) | B2C service-business about-us pages |
 
 ### 🎯 B2B Leadgen (5 skills)
 
 | Skill | Audits |
 | --- | --- |
-| [`landingpage-b2b-leadgen-homepage`](./landingpage-b2b-leadgen-homepage/SKILL.md) | B2B SaaS / consultancy / services homepages |
-| [`landingpage-b2b-leadgen-servicepage`](./landingpage-b2b-leadgen-servicepage/SKILL.md) | B2B service / solution pages |
-| [`landingpage-b2b-leadgen-dedicatedlp`](./landingpage-b2b-leadgen-dedicatedlp/SKILL.md) | B2B dedicated campaign LPs (LinkedIn Ads / Google Ads / email) |
-| [`landingpage-b2b-leadgen-contactpage`](./landingpage-b2b-leadgen-contactpage/SKILL.md) | B2B contact pages (sales / support / partner routing) |
-| [`landingpage-b2b-leadgen-aboutus`](./landingpage-b2b-leadgen-aboutus/SKILL.md) | B2B about-us pages (supplier credibility focus) |
+| [`landingpage-b2b-leadgen-homepage`](./landingpage-b2b-leadgen-homepage.md) | B2B SaaS / consultancy / services homepages |
+| [`landingpage-b2b-leadgen-servicepage`](./landingpage-b2b-leadgen-servicepage.md) | B2B service / solution pages |
+| [`landingpage-b2b-leadgen-dedicatedlp`](./landingpage-b2b-leadgen-dedicatedlp.md) | B2B dedicated campaign LPs (LinkedIn Ads / Google Ads / email) |
+| [`landingpage-b2b-leadgen-contactpage`](./landingpage-b2b-leadgen-contactpage.md) | B2B contact pages (sales / support / partner routing) |
+| [`landingpage-b2b-leadgen-aboutus`](./landingpage-b2b-leadgen-aboutus.md) | B2B about-us pages (supplier credibility focus) |
 
 ---
 
