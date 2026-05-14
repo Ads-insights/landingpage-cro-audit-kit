@@ -1,8 +1,10 @@
 # 🎯 Landing Page CRO Audit Kit
 
-### 22 AI Skills for Claude — Audit any landing page with conversion-ready findings in minutes
+### 22 AI Skills for Claude — The productivity tool serious CRO and PPC professionals use to 10x their landing page optimisations
 
-Drop in any URL. Get a structured, source-backed CRO audit with 8–15 test-ready findings — every one ICE-scored, sprint-ready, and exportable as a client report.
+Hand over a URL and screenshots. **Get a complete audit and test roadmap in 10 minutes** — page-specific, source-backed, sprint-ready. 22 skills covering every landing page type across B2C, B2B, ecom and leadgen.
+
+Built for marketers, PPC specialists, and CRO consultants who want their AI to think like a specialist instead of a generalist.
 
 > Built by **[Ads & Insights](https://adsinsights.nl)** — Freelance Google Ads & eCommerce Specialist
 
@@ -10,50 +12,57 @@ Drop in any URL. Get a structured, source-backed CRO audit with 8–15 test-read
 
 ## Why a Skill Per Page-Type Changes Everything
 
-Most CRO audits treat every page the same. Same checklist for a B2C product page and a B2B SaaS demo LP. Same questions for a checkout flow and an about page. The result: generic findings, missed leverage, recommendations that fit no page particularly well.
+Most AI CRO tools treat every page the same. Paste a URL, get a generic checklist. The output reads the same whether you handed in a B2C product page or a B2B SaaS demo LP — because the model is reaching for the same patterns regardless of context.
 
-**This kit takes the opposite approach.** Every page-type gets its own dedicated audit skill — built on the conversion levers that actually matter for *that specific page* on *that specific business model*.
+CRO professionals know this doesn't work. A product page needs different lenses than a checkout. A B2B about page needs different lenses than a B2C homepage. **One universal auditor cannot do all of them well.**
 
-A B2C ecom product page audit zooms in on add-to-cart friction, review prominence, mobile PDP density, urgency calibration. A B2B SaaS demo LP audit zooms in on message-match with the ad source, lead-magnet value-equation, BANT form calibration, single-CTA dogma. A B2B about page audit zooms in on supplier-credibility, named leadership, vendor-due-diligence signals. **None of these audits would make sense applied to the wrong page.**
+That's why this kit has **22 separate skills** — each calibrated end-to-end to one specific page-type on one specific business model. The difference shows up in the output:
 
-That's why this kit has **22 separate skills** instead of one universal auditor. Each one is calibrated end-to-end:
+> *Generic AI tool:* "Add some social proof to the page."
+>
+> *This kit:* "Add aggregate review-rating directly under product-title above-the-fold. Expected impact: +15–30% on add-to-cart rate. Source: Spiegel Research Center."
 
-- 🎯 **Page-specific framework** — 11 finding categories tailored to that page's conversion job
-- 🧭 **Business-model calibration** — B2C ecom vs B2B SaaS vs leadgen consultancy get different lenses
-- 📚 **Source-backed recommendations** — Baymard, Cialdini, MECLABS, ConversionXL, Forrester, Edelman B2B Trust, Hormozi, April Dunford, Challenger Sale — each cited per finding
-- 🔬 **Test-ready findings** — every recommendation comes with a hypothesis, primary metric, expected impact range, and ICE score
-
-This is the difference between *"add some social proof"* and *"add aggregate review-rating directly under product-title above-the-fold, expect +15-30% on add-to-cart rate, primary metric ATC-rate, source: Spiegel Research Center"*.
-
-**Generic CRO advice is everywhere. Specificity is rare.** This kit is specificity, productised.
+**Generic CRO advice is everywhere. Specificity is rare.**
 
 ---
 
 ## What This Kit Does
 
-**22 Claude Skills** that audit any landing page and deliver a prioritised list of test-ready CRO findings — automatically.
+**22 Claude Skills** that deliver a structured first-draft audit for any landing page, prioritised and ready for review.
 
 ```
 You:    [URL + screenshots]
 Claude: [Detects context → runs 11-category sweep → delivers
-         8–15 findings with ICE scores → exports .docx + .xlsx]
+         scan-ready audit in chat → full audit + sprint planning
+         in .docx and .xlsx on request]
 ```
 
-No checklists to memorise. No frameworks to learn. No generic advice. Just upload screenshots and get the audit.
+What used to take a CRO professional 2–3 hours from blank slate — categorising friction points, citing frameworks, scoring impact, drafting hypotheses, structuring a deliverable — Claude returns in 10–15 minutes. You review, calibrate to client context, ship.
+
+### Scan in chat, deep-dive in exports
+
+Every audit is delivered in two layers so you don't have to scroll through 3,000 words to find the priorities:
+
+**In chat — compact scan format**
+Every finding in 3 lines: what's wrong, what to do, expected test impact + ICE score. The entire audit fits in under a minute of reading. Built for fast decision-making: which findings deserve attention, which can wait, what to test first.
+
+**In .docx — full client-ready report**
+Request the Word export and you get the complete analysis per finding: full diagnosis with framework citation, multi-step recommendation, test specification with hypothesis, variants A/B, primary + secondary metrics, expected impact range, ICE breakdown, source attribution. The kind of document you hand a client or a stakeholder without editing.
+
+**In .xlsx — sprint planning grid**
+One row per finding, all structured fields (ID, priority, category, hypothesis, primary metric, expected impact, ICE breakdown, source). Filterable, sortable, ready to drop into Jira / Asana / ClickUp.
 
 ### What you get per audit
 
-| Section | Content |
-| --- | --- |
-| **Executive summary** | 100–150 word verdict + top 3 critical issues |
-| **Category sweep** | One-line status across all 11 framework categories |
-| **Findings** | 8–15 prioritised findings (🔴 Critical / 🟠 Important / 🟢 Nice-to-have) |
-| **Per finding** | Diagnosis · Recommendation · Test hypothesis · ICE score · Source citation |
-| **Test roadmap** | Sprint-ordered execution plan over 3–4 sprints |
-| **Audit limitations** | Honest acknowledgement of what couldn't be assessed |
-| **Exports** | Client-ready `.docx` report + sprint-planning `.xlsx` |
+| Section | Chat | .docx export |
+| --- | --- | --- |
+| **Executive summary** | 60–100 words, top 3 issues | Extended 150–200 words with context |
+| **Category sweep** | One-line status across 11 categories | Same |
+| **Findings** | 8–15 findings, compact 3-line format | Same findings, full diagnosis + recommendation + test spec |
+| **Test roadmap** | Bullet list, max 4 sprints | Extended sprint plan with dependencies and sequencing rationale |
+| **Audit limitations** | 3–6 bullets | Same |
 
-Every finding is structured the same way: clear diagnosis, concrete recommendation, hypothesis, primary metric, expected impact range, and a citation back to the underlying CRO principle or research.
+Both layers come from the same internal analysis — Claude runs the full audit reasoning under the hood and surfaces the right level of detail per medium.
 
 ---
 
@@ -101,30 +110,13 @@ Each skill is purpose-built for one specific page-type and business-model combin
 
 ### 1. Install the skills
 
-**Step 1 — Download the kit**
+**1. Download the kit.** Click the green **Code** button → **Download ZIP**. Extract it on your computer.
 
-On this page, click the green **Code** button (top right of the file list) → **Download ZIP**. Extract the ZIP on your computer. You'll see 22 folders (one per skill), plus README and LICENSE.
+**2. Zip the skill folder you want to install.** Right-click any skill folder (e.g. `landingpage-b2c-ecom-homepage`) → "Send to" → "Compressed (zipped) folder" on Windows, or "Compress" on Mac. Everything Claude needs is already inside — SKILL.md and references — so just zip the whole folder as-is.
 
-Each skill folder contains everything that skill needs — a `SKILL.md` file and a `references/` subfolder with supporting frameworks and examples. Don't move or rename anything inside the folders.
+**3. Upload to Claude.** Go to **[claude.ai](https://claude.ai)** → **Customize** → **Skills** → **+** → **Create skill** → **Upload a skill** → select your zip.
 
-**Step 2 — Zip the skill folder you want to install**
-
-To install a skill in Claude, you need to upload it as a `.zip` file containing the skill folder. Simply zip the entire folder:
-
-- **Windows:** Right-click the skill folder (e.g. `landingpage-b2c-ecom-homepage`) → **Send to** → **Compressed (zipped) folder**
-- **Mac:** Right-click the skill folder → **Compress "[folder-name]"**
-
-The resulting `.zip` contains `SKILL.md` and the `references/` folder — exactly what Claude needs. No manual editing required.
-
-**Step 3 — Upload to Claude**
-
-Go to **[claude.ai](https://claude.ai)** → **Customize** → **Skills** → click the **+** button → **Create skill** → **Upload a skill** → select your `.zip` file.
-
-The skill appears in your Personal skills list. Claude installs the SKILL.md and the references together automatically — you don't need to upload references separately.
-
-**Step 4 — Repeat for each skill you want to install**
-
-All 22 skills are fully independent. Install just the ones you need — no orchestrator, no dependencies. Most users start with the 2-3 page-types they audit most often, then add more over time.
+Done. Repeat for any other skills you want. All 22 are independent — pick what you need.
 
 ### 2. Pick the right skill for your page
 
@@ -248,7 +240,21 @@ Findings cite from established research:
 
 ## Output Example
 
-Every audit follows the same structure. A snippet of what a finding looks like:
+Every audit delivers findings in two layers — compact in chat, full in the .docx export. Same underlying analysis, different level of detail per medium.
+
+**In chat (compact, scan-ready):**
+
+```markdown
+### 🔴 1. Geen reviews above-the-fold op productpagina
+**Probleem:** Trustpilot-logo alleen in footer; geen aggregate rating
+of ster-rating bij het product zelf.
+**Aanbeveling:** Plaats ★ 4.7 (234 reviews) direct onder product-titel
+above-the-fold + 2-3 reviewer-quotes in dedicated sectie.
+**Test:** add-to-cart rate, verwacht +15% tot +30%. ICE 8.7.
+Bron: Spiegel Research Center; Cialdini (social proof).
+```
+
+**In the .docx export (full client deliverable):**
 
 ```markdown
 ### 🔴 Trust signals — Geen reviews above-the-fold op B2C product page
@@ -269,24 +275,31 @@ met zichtbare reviews 270% beter dan zonder. Voor mid-price B2C ecom
 - **Hypothesis:** "Als we aggregate reviews above-the-fold tonen, dan
   stijgt add-to-cart rate aanzienlijk doordat first-time-buyer-anxiety
   wegvalt (Spiegel Research Center; Cialdini social proof)."
+- **Variant A:** current state — Trustpilot logo only in footer
+- **Variant B:** aggregate rating + quotes above-the-fold
 - **Primary metric:** add-to-cart rate
+- **Secondary metrics:** scroll depth · time on PDP · reviews-section clicks
 - **Expected impact:** +15% to +30%
 - **ICE:** I=9, C=9, E=8 → 8.7
 - **Source:** Spiegel Research Center; Cialdini (Influence)
 ```
 
-Each audit delivers 8–15 of these, sorted by priority, exportable to `.docx` for clients and `.xlsx` for sprint planning.
+Each audit delivers 8–15 findings like this — compact in chat for scanning and decision-making, full in `.docx` for client delivery, structured in `.xlsx` for sprint planning.
 
 ---
 
-## Pro Tip: Build a CRO Audit Practice
+## Pro Tip: 10x Your CRO Audit Output
 
-These skills compress what used to be a 2-day manual audit into a 20-minute Claude session. For agencies and consultants this is a meaningful productivity unlock:
+These skills compress the structural work of a CRO audit — categorising friction points, citing frameworks, scoring impact, drafting hypotheses, structuring the deliverable — from 2–3 hours into 10–15 minutes. That's where the 10x comes from: you stop building the audit from scratch and start reviewing a structured first-draft instead.
 
-- **Productise CRO audits** as a flat-fee service. Clean deliverable, low time-investment per audit.
-- **Run quick site-wide audits** by going through homepage → top category → top product → cart → checkout in sequence (5 audits per site).
-- **Use as a sales tool** — run a free abbreviated audit on a prospect's site to show capability and identify the biggest opportunities.
-- **Pair with analytics review** — use the audit findings to brief A/B test priorities, then validate via real data.
+What this unlocks in practice:
+
+- **Productise CRO audits** as a flat-fee service. Clean deliverable, predictable time-investment per audit.
+- **Run quick site-wide audits** by going through homepage → top category → top product → cart → checkout in sequence (5 audits, half a day instead of a full week).
+- **Use as a sales tool** — run an abbreviated audit on a prospect's site to demonstrate capability and identify the biggest opportunities before the kick-off call.
+- **Pair with analytics review** — use the audit findings to brief A/B test priorities, then validate against GA4 / Hotjar / session replay data.
+
+The kit doesn't replace the CRO professional. It removes the structural lift so the professional can spend time on what actually requires judgement: client context, brand fit, prioritisation against business goals, calibration against analytics.
 
 ---
 
@@ -299,9 +312,13 @@ These skills compress what used to be a 2-day manual audit into a 20-minute Clau
 
 ## Disclaimer
 
-This kit is provided as-is. While tested across multiple verticals (luxury fashion, B2B SaaS, professional services, managed IT, marketplaces, ecommerce, consumer services) and languages, **edge cases may occur** — especially with unusual page architectures, single-page applications with heavy client-side rendering, or page-types not covered by the matrix.
+This kit delivers a **structured first-draft audit**, not a finished deliverable. The skills are designed to compress the structural work — categorisation, framework citation, ICE scoring, hypothesis drafting — into a tight workflow. They are not a replacement for the CRO professional's judgement on client context, brand fit, business goals, or strategic prioritisation.
 
-The skills are conservative by design: they will not invent findings, will not claim missing elements without visual verification, and will not recommend risky disclosures (e.g. specific financials on B2B about pages). A manual review of each audit is still recommended before sharing with clients.
+**Always review the output before sharing with clients.** Manual calibration is expected — adjust findings to the client's specific situation, sales cycle, audience nuances, and any analytics signals the skill couldn't see.
+
+The kit has been tested across multiple verticals (luxury fashion, B2B SaaS, professional services, managed IT, marketplaces, ecommerce, consumer services) and languages, but **edge cases occur** — especially with unusual page architectures, single-page applications with heavy client-side rendering, or page-types not covered by the matrix.
+
+The skills are conservative by design: they will not invent findings, will not claim missing elements without visual verification, and will not recommend risky disclosures (e.g. specific financials on B2B about pages).
 
 Expected-impact ranges are calibrated against research benchmarks (Baymard, CXL, Forrester) — not against the audited brand's own baseline. Always validate findings via A/B testing on real traffic.
 
