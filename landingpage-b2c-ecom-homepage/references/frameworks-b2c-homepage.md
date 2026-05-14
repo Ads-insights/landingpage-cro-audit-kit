@@ -127,7 +127,7 @@ A strong value proposition contains:
 - **Primary CTA** — the obvious next step
 
 ### Common failures
-- Headline is brand-name only ("TradingCardsCo") with no category context
+- Headline is brand-name only ("Brand X") with no category context
 - Generic taglines ("Welcome to our store", "Discover quality")
 - Multiple competing headlines from slider rotations that contradict each other
 - Hero focused on a single product with no broader category positioning
@@ -280,7 +280,7 @@ The visitor is the hero, the brand is the guide. A homepage brand snippet should
 - Mission-driven brands (sustainable, local, founder-led)
 
 ### When to skip
-- Established commodity retailers (Coolblue, Bol — visitors already know what they do)
+- Established commodity retailers (visitors already know what they do)
 - Pure-utility shops where speed and price dominate
 
 ### Best practices
